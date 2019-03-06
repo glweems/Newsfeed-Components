@@ -1,0 +1,35 @@
+{
+  "name": "newsfeed-components",
+  "version": "1.0.0",
+  "description": "In this project we are going to be building a news feed reader.",
+  "scripts": {
+    "serve": "serve .",
+    "build": "lessc ./LESS/index.less ./CSS/index.css",
+    "less": "less-watch-compiler less css index.less",
+    "bs": "browser-sync --port 69 --host gw-mb.local --no-open --no-notify",
+    "start": "concurrently \"npm run bs\" \"npm run less\"",
+    "deploy": "now && now alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glweems/Newsfeed-Components.git"
+  },
+  "keywords": [
+    "javascript",
+    "components",
+    "js"
+  ],
+  "author": "glweems",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glweems/Newsfeed-Components/issues"
+  },
+  "homepage": "https://github.com/glweems/Newsfeed-Components#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "concurrently": "^4.1.0",
+    "less": "^3.9.0",
+    "less-watch-compiler": "^1.13.0",
+    "serve": "^10.1.2"
+  }
+}
