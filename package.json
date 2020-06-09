@@ -29,7 +29,7 @@
     "browser-sync": "^2.26.3",
     "concurrently": "^4.1.0",
     "less": "^3.9.0",
-    "less-watch-compiler": "^1.13.0",
+    "less-watch-compiler": "^1.14.6",
     "serve": "^10.1.2"
   }
 }
